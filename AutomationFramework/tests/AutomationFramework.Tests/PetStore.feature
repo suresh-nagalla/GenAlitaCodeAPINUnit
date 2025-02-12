@@ -1,0 +1,1 @@
+Feature: PetStore API Testing\n\n  Scenario: Create a new pet and verify it exists\n    Given I create a new pet with name \"Buddy\" and status \"available\"\n    When I retrieve the pet by its ID\n    Then I should see the pet name as \"
